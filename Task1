@@ -1,0 +1,7 @@
+def kwargsAcceptFun(**kwargs):
+    # Print each key-value pair in the kwargs dictionary
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+# Example usage:
+kwargsAcceptFun(name="John", age=25, city="New York")
